@@ -1,0 +1,153 @@
+
+/****GLOBAL STYLES****/
+/**Body**/
+body {
+    font-family: 'Mooli', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url('/img/background.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;  
+
+}
+
+/**Header **/
+
+/*Header main*/
+header {
+    background-color: rgb(5, 59, 80);
+    color: #fff;
+    padding: 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.863); 
+    
+}
+
+/*Header logo*/
+header img {
+    float: left; 
+    max-width: 80px; 
+    height: auto;
+    margin-right: 20px; 
+}
+
+/* Header nav bar */
+nav {
+    float: right; 
+}
+ /*Nav ul, ol, a*/
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/**Sections**/
+section {
+    padding: 80px;
+    background-color: #ffffffea;
+    margin: 50px;
+    border: 1px solid #f0eaea;
+    border-radius: 20px ;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.863);
+    
+}
+
+/**Table**/
+/*Table main*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/*Table objects*/
+table, th, td {
+    border: 2px solid #053B50;
+    padding: 5px;
+}
+
+/** List **/
+ul, ol {
+    padding-left: 20px;
+}
+
+ul {
+    list-style-type: "♡";
+}
+
+/** External links **/
+a[target="_blank"] {
+    text-decoration: underline;
+    color: #0073e6;
+}
+
+/**Footer**/
+/*Footer main*/
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;    
+}
+
+/*Footer text*/
+.footer-text{
+    text-align: center;
+    
+}
+
+/**h1, h2,h3 **/
+h1, h2, h3{
+    text-align: center;
+}
+
+/** p **/
+p{
+    text-align: center; 
+}
+
+/**Images**/
+
+.img-style {
+    width: 600px; 
+    height: auto; 
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 3px 3px 5px #888888; 
+    display: block; 
+    margin: 0 auto;
+}
+
+/**Iframe**/
+/*Iframe main*/
+iframe {
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 3px 3px 5px #888888; 
+    margin: 0 auto; 
+}
+
+/*Iframe container*/
+.contenedor-iframe {
+    text-align: center; 
+}
+
+
+
+
+
+
+
+
+
+
